@@ -1,0 +1,101 @@
+body{
+    background-color: lavenderblush;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-bar{
+    background-color: rgb(243, 215, 215);
+    display: flex;
+    justify-content:space-around;
+    text-align:center;
+    }
+
+.nav-category{
+    display: flex;
+    column-gap: 10px;
+    color: blue;
+}
+
+.nav-category a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.my-content{
+    background-color: rgba(236, 178, 202, 0.808);
+}
+
+.my-content h1{
+    color: rgb(156, 4, 4);
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.my-content p{
+    color: none;
+    text-align: center;
+    font-size: 30px;
+    font-style: unset;
+    padding: 1px;
+
+
+}
+
+.about h1{
+ position: static;
+ text-indent: 50px;
+ color: rgb(83, 9, 34);
+ font-size: 30px;
+ height: 20px;
+
+}
+
+.about p{                
+position: relative;
+width: 700px;
+font-size: 20px;
+font-style: oblique;
+text-align: center;
+}
+
+
+
+
+.projact h1{
+    color: rgb(70, 16, 23);
+    font-size: 30px;
+    text-align: center;
+    text-indent: 50px;
+    }
+.projact img{
+    background-color: rgb(177, 169, 162);
+    border: solid blue;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.projact p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(70, 16, 23);
+    }
+
+hr{
+    border-top: 1px solid red;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(94, 9, 20);
+}
